@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "Business management and career profiles in Medellín",
+    "description": "Operanta supports SMEs and professionals through change: processes, innovation and talent with measurable results. Medellín, Colombia."
+  },
+  "nav": {
+    "problem": "Starting point",
+    "services": "Services",
+    "method": "How we work",
+    "plans": "Engagement",
+    "team": "Team",
+    "contact": "Contact",
+    "cta": "Let's talk"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Operanta, go to home",
+    "switchLang": "Change language",
+    "whatsapp": "Message us on WhatsApp",
+    "progress": "Reading progress",
+    "social": {
+      "linkedin": "Operanta on LinkedIn",
+      "instagram": "Operanta on Instagram",
+      "facebook": "Operanta on Facebook"
+    }
+  },
+  "hero": {
+    "kicker": "01 · Business management / Career profile",
+    "title": "Business management and career profiles in Medellín",
+    "lead": "Operanta supports SMEs and professionals through moments of change: SMEs, to improve their processes and innovate in their business; professionals, to take the next step in their careers.",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "ctaPortfolio": "See our services",
+    "scroll": "Scroll",
+    "stats": {
+      "years": "years of combined experience",
+      "fronts": "fronts worked together: processes and people",
+      "pilot": "pilot before scaling"
+    }
+  },
+  "problem": {
+    "kicker": "02 · The starting point",
+    "title": "An SME grows through two things at once",
+    "items": {
+      "people": {
+        "title": "People",
+        "body": "Teams without clear roles, high turnover and knowledge that walks out the door with whoever quits."
+      },
+      "process": {
+        "title": "Processes",
+        "body": "Reactive operations, no indicators, rework and costs nobody measures."
+      },
+      "gap": {
+        "title": "The gap",
+        "body": "Almost no consultant works both fronts. Either operations get organized or people get trained, rarely both."
+      }
+    }
+  },
+  "services": {
+    "kicker": "03 · What we do",
+    "title": "Service lines",
+    "lead": "Two fronts that reinforce each other: the operation that produces and the talent that sustains it.",
+    "tabs": {
+      "operations": "Operations",
+      "talent": "Talent"
+    },
+    "fronts": "Work fronts",
+    "results": "Expected results",
+    "footnote": "Each work front can be explored in more depth as needed.",
+    "items": {
+      "logistics": {
+        "title": "Logistics and distribution",
+        "summary": "Support across the end-to-end management of the supply chain.",
+        "fronts": ["Logistics operations design", "Planning and procurement", "Warehousing and inventory", "Distribution and transport", "Indicators and traceability", "Foreign trade"],
+        "results": ["Logistics master plan", "Operational and financial viability", "Optimized logistics processes", "Better logistics cost and service level", "End-to-end visibility"]
+      },
+      "productivity": {
+        "title": "Operational productivity",
+        "summary": "An intervention focused on removing waste and rework, optimizing resources and strengthening the team.",
+        "fronts": ["Process flow", "Cycle times", "Process capacity", "Waste and rework"],
+        "results": ["Higher productivity", "Less non-value-added time", "Better operating capacity", "Less waste"]
+      },
+      "innovation": {
+        "title": "Business models and innovation management",
+        "summary": "Projects developed with innovation methodologies.",
+        "fronts": ["Stakeholder management", "Continuous improvement", "Innovation project development"],
+        "results": ["A new or improved business model"]
+      },
+      "talent": {
+        "title": "Talent optimization",
+        "summary": "People management support: from diagnosis to career transition.",
+        "fronts": ["Talent and climate diagnosis", "Role and competency definition", "Development paths and career plans", "Training and gap closing", "Attraction and employer branding", "Career transition and retention"],
+        "results": ["Lower turnover of key staff", "Clear roles and responsibilities", "Documented knowledge that does not depend on one person", "Teams with a defined development path", "Better, measurable climate and engagement"]
+      },
+      "change": {
+        "title": "Change management",
+        "summary": "Support so improvements last over time.",
+        "fronts": ["Change readiness diagnosis", "Change management strategy design", "Communication", "Innovation culture"],
+        "results": ["Higher adoption of new processes", "Resistance to change managed, not ignored", "Measurable organizational maturity", "Innovation projects that last"]
+      }
+    }
+  },
+  "method": {
+    "kicker": "04 · How we work",
+    "consulting": {
+      "title": "From diagnosis to built-in capability",
+      "note": "We start with a pilot: low risk, proof of value, then we scale.",
+      "steps": {
+        "diagnosis": { "title": "Diagnosis", "body": "A baseline with real operations and talent indicators." },
+        "intervention": { "title": "Intervention", "body": "A focused intervention on what weighs the most." },
+        "measurement": { "title": "Measurement", "body": "Indicators before and after: results are shown, not promised." },
+        "transfer": { "title": "Transfer", "body": "Your team is left able to sustain the improvement without us." }
+      }
+    },
+    "training": {
+      "title": "From training to built-in capability",
+      "note": "Built in modules according to each need.",
+      "steps": {
+        "workshop": { "title": "Workshop", "body": "A hands-on group workshop focused on a specific topic." },
+        "course": { "title": "Course", "body": "An academic space on a specific topic to develop skills." },
+        "bootcamp": { "title": "Bootcamp", "body": "An immersive experience with our own methodology that ends with clear actions to execute." }
+      }
+    }
+  },
+  "audience": {
+    "kicker": "05 · Who we serve",
+    "title": "Who we work for",
+    "lead": "What each audience expects when it comes to Operanta.",
+    "segments": {
+      "companies": {
+        "title": "Companies",
+        "subtitle": "SMEs with physical operations",
+        "expects": ["Measurable gains in productivity and margin", "Processes that run without depending on the owner", "Teams with clear roles and less turnover", "A low-risk pilot before committing"]
+      },
+      "people": {
+        "title": "Professionals",
+        "subtitle": "People in career transition",
+        "expects": ["Clarity on their next career step", "A stronger, more visible professional profile", "Practical training to close gaps", "Close support through the career transition"]
+      },
+      "influencers": {
+        "title": "Influencers and partners",
+        "subtitle": "Associations, communities and opinion leaders",
+        "expects": ["Useful, data-backed content on management and employability", "Partners with proven experience", "Projects with social and territorial impact", "Training spaces for their communities"]
+      }
+    }
+  },
+  "value": {
+    "kicker": "06 · Value proposition",
+    "statement": "Your operation stops depending on you. We organize the processes, train the people who sustain them and measure it in pesos",
+    "audience": "For managers of SMEs in the Aburrá Valley with physical operations.",
+    "pillars": {
+      "process": { "title": "Organized processes", "body": "Operations run with flow, indicators and clear owners." },
+      "people": { "title": "Trained people", "body": "Whoever sustains the process has the role, the path and the tools." },
+      "measure": { "title": "Measured results", "body": "Autonomy is proven with an indicator, not a feeling." }
+    }
+  },
+  "plans": {
+    "kicker": "07 · How to hire us",
+    "title": "Modular model: pilot first, scale later",
+    "lead": "The relationship grows with trust and results. It starts with a small, high-value commitment and expands once the improvement is visible.",
+    "featured": "Most requested",
+    "items": {
+      "diagnosis": {
+        "eyebrow": "Entry point",
+        "title": "Diagnosis",
+        "model": "Fixed fee",
+        "body": "A baseline with real operational indicators. Low commitment, high starting value. The recommended first step.",
+        "cta": "Start here"
+      },
+      "sprint": {
+        "eyebrow": "Most requested",
+        "title": "Improvement sprint",
+        "model": "By scope",
+        "body": "A defined intervention on a concrete case, with measurable deliverables and goals. A trained team and an indicator dashboard.",
+        "cta": "Quote a sprint"
+      },
+      "retainer": {
+        "eyebrow": "To scale",
+        "title": "Ongoing support",
+        "model": "Monthly retainer",
+        "body": "A continuous presence to sustain the improvement, govern the operation and scale to more fronts with people and processes.",
+        "cta": "Discuss the scope"
+      }
+    }
+  },
+  "team": {
+    "kicker": "08 · Who does it",
+    "title": "The team behind Operanta",
+    "role": "Founding partner",
+    "footnote": "We work with a multidisciplinary team that joins each project as needed.",
+    "members": {
+      "clara": {
+        "name": "Clara Arbeláez",
+        "bio": "Industrial engineer, Lean Six Sigma. 15+ years leading operations and logistics in consumer goods and food. National distribution networks and process transformation."
+      },
+      "monica": {
+        "name": "Mónica Sanín",
+        "bio": "Director of social innovation and community development. 10+ years in innovation projects, territorial impact strategies, culture, employability and sustainability for companies and social foundations."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "09 · Contact us",
+    "title": "Tell us what you want to move",
+    "lead": "Leave your details and we will reply within one business day. If you prefer, message us on WhatsApp.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "role": "Job title",
+      "need": "Need"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "name{'@'}company.com",
+      "phone": "+57 300 000 0000",
+      "company": "Company name",
+      "role": "Your job title",
+      "need": "What would you like to improve in your operation, your team or your career?"
+    },
+    "requiredNote": "Fields marked with * are required.",
+    "privacy": "We only use this information to reply to your request.",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "sent": "Message sent. We will get back to you soon.",
+    "errors": {
+      "required": "This field is required.",
+      "invalidEmail": "Enter a valid email.",
+      "invalidPhone": "Enter a valid phone number (7 to 15 digits).",
+      "tooLong": "The text is too long."
+    },
+    "toast": {
+      "successTitle": "Thank you!",
+      "successBody": "We received your message and will reply soon.",
+      "errorTitle": "We could not send your message",
+      "errorBody": "Please try again or message us on WhatsApp."
+    },
+    "alt": {
+      "title": "Other ways to reach us",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "calendly": "Book a diagnosis"
+    }
+  },
+  "footer": {
+    "tagline": "Business management and career profiles. Processes and people, measured.",
+    "location": "Medellín, Colombia",
+    "follow": "Follow us",
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "message": "I'm interested in Operanta's services.",
+    "tooltip": "Shall we talk?"
+  }
+}

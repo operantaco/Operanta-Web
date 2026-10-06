@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" stroke-linecap="round">
+  <title>Indicadores antes y después (ilustrativo)</title>
+  <g stroke="#FFFFFF" stroke-opacity="0.12">
+    <path d="M30 180h300M30 140h300M30 100h300M30 60h300"/>
+  </g>
+  <g fill="#68727E">
+    <rect x="52" y="80" width="28" height="100" rx="3"/>
+    <rect x="132" y="96" width="28" height="84" rx="3"/>
+    <rect x="212" y="70" width="28" height="110" rx="3"/>
+  </g>
+  <g fill="#12B0A8">
+    <rect x="86" y="58" width="28" height="122" rx="3"/>
+    <rect x="166" y="66" width="28" height="114" rx="3"/>
+    <rect x="246" y="40" width="28" height="140" rx="3"/>
+  </g>
+  <path d="M100 52 180 60l80-26" stroke="#F4A340" stroke-width="3"/>
+  <circle cx="260" cy="34" r="6" fill="#F4A340"/>
+</svg>

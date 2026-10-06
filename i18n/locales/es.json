@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "Gestión empresarial y perfil laboral en Medellín",
+    "description": "Operanta acompaña a pymes y personas en sus momentos de cambio: procesos, innovación y talento con resultados medibles. Medellín y Valle de Aburrá."
+  },
+  "nav": {
+    "problem": "Punto de partida",
+    "services": "Servicios",
+    "method": "Cómo trabajamos",
+    "plans": "Contratarnos",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "cta": "Hablemos"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "home": "Operanta, ir al inicio",
+    "switchLang": "Cambiar idioma",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "progress": "Progreso de lectura",
+    "social": {
+      "linkedin": "Operanta en LinkedIn",
+      "instagram": "Operanta en Instagram",
+      "facebook": "Operanta en Facebook"
+    }
+  },
+  "hero": {
+    "kicker": "01 · Gestión empresarial / Perfil laboral",
+    "title": "Gestión empresarial y perfil laboral en Medellín",
+    "lead": "Operanta acompaña a pymes y personas en sus momentos de cambio: a las pymes, a mejorar sus procesos e innovar en su negocio; a las personas, a dar el siguiente paso en su carrera profesional.",
+    "ctaWhatsapp": "Escríbenos por WhatsApp",
+    "ctaPortfolio": "Ver portafolio",
+    "scroll": "Desplazar",
+    "stats": {
+      "years": "años de experiencia combinada",
+      "fronts": "frentes trabajados juntos: procesos y personas",
+      "pilot": "piloto antes de escalar"
+    }
+  },
+  "problem": {
+    "kicker": "02 · El punto de partida",
+    "title": "Una pyme crece por dos cosas a la vez",
+    "items": {
+      "people": {
+        "title": "Personas",
+        "body": "Equipos sin claridad de rol, alta rotación y conocimiento que se va con quien renuncia."
+      },
+      "process": {
+        "title": "Procesos",
+        "body": "Operación reactiva, sin indicadores, con reprocesos y costos que nadie mide."
+      },
+      "gap": {
+        "title": "El vacío",
+        "body": "Casi ningún consultor trabaja los dos frentes. Se ordena la operación o se forma la gente, rara vez ambas."
+      }
+    }
+  },
+  "services": {
+    "kicker": "03 · Qué hacemos",
+    "title": "Líneas de servicio",
+    "lead": "Dos frentes que se refuerzan: la operación que produce y el talento que la sostiene.",
+    "tabs": {
+      "operations": "Operaciones",
+      "talent": "Talento"
+    },
+    "fronts": "Frentes de trabajo",
+    "results": "Resultados esperados",
+    "footnote": "Se puede profundizar en cada frente de trabajo de acuerdo a la necesidad.",
+    "items": {
+      "logistics": {
+        "title": "Logística y distribución",
+        "summary": "Acompañamiento en la gestión integral de la cadena de suministro.",
+        "fronts": ["Diseño de operaciones logísticas", "Planeación y abastecimiento", "Almacenamiento e inventarios", "Distribución y transporte", "Indicadores y trazabilidad", "Comercio exterior"],
+        "results": ["Plan maestro logístico", "Viabilidad operativa y financiera", "Optimización de procesos logísticos", "Mejor costo logístico y nivel de servicio", "Visibilidad de punta a punta"]
+      },
+      "productivity": {
+        "title": "Productividad operacional",
+        "summary": "Intervención enfocada en eliminar desperdicios y reprocesos, optimizando los recursos y fortaleciendo el equipo.",
+        "fronts": ["Flujo de proceso", "Tiempos de ciclo", "Capacidad del proceso", "Desperdicios y reprocesos"],
+        "results": ["Mejora de productividad", "Reducción de tiempos sin valor agregado", "Mejor capacidad operativa", "Menos desperdicios"]
+      },
+      "innovation": {
+        "title": "Modelos de negocio y gestión de la innovación",
+        "summary": "Desarrollo de proyectos bajo metodologías de innovación.",
+        "fronts": ["Gestión de stakeholders", "Mejora continua", "Desarrollo de proyectos de innovación"],
+        "results": ["Modelo de negocio nuevo o mejorado"]
+      },
+      "talent": {
+        "title": "Optimización de talento",
+        "summary": "Acompañamiento en la gestión de personas: del diagnóstico a la transición laboral.",
+        "fronts": ["Diagnóstico de talento y clima", "Definición de roles y competencias", "Rutas de desarrollo y planes de carrera", "Formación y cierre de brechas", "Atracción y employer branding", "Transición laboral y retención"],
+        "results": ["Menor rotación de personal clave", "Roles y responsabilidades claras", "Conocimiento documentado, no dependiente de una persona", "Equipos con ruta de desarrollo definida", "Mejor clima y compromiso medible"]
+      },
+      "change": {
+        "title": "Gestión del cambio",
+        "summary": "Acompañamiento para que la mejora se sostenga en el tiempo.",
+        "fronts": ["Diagnóstico de madurez para el cambio", "Diseño de estrategia de gestión del cambio", "Comunicación", "Cultura de innovación"],
+        "results": ["Mayor adopción de nuevos procesos", "Resistencia al cambio gestionada, no ignorada", "Madurez organizacional medible", "Proyectos de innovación sostenibles en el tiempo"]
+      }
+    }
+  },
+  "method": {
+    "kicker": "04 · Cómo trabajamos",
+    "consulting": {
+      "title": "De diagnóstico a capacidad instalada",
+      "note": "Empezamos por un piloto: bajo riesgo, prueba de valor y luego escalamos.",
+      "steps": {
+        "diagnosis": { "title": "Diagnóstico", "body": "Línea base con indicadores reales de operación y talento." },
+        "intervention": { "title": "Intervención", "body": "Intervención enfocada sobre lo que más pesa." },
+        "measurement": { "title": "Medición", "body": "Indicadores antes y después: el resultado se ve, no se promete." },
+        "transfer": { "title": "Transferencia", "body": "El equipo queda capaz de sostener la mejora sin nosotros." }
+      }
+    },
+    "training": {
+      "title": "De formación a capacidad instalada",
+      "note": "Se arma de forma modular según la necesidad.",
+      "steps": {
+        "workshop": { "title": "Taller", "body": "Taller experiencial para grupos, centrado en un tema específico." },
+        "course": { "title": "Curso", "body": "Espacio académico sobre un tema específico para desarrollar habilidades." },
+        "bootcamp": { "title": "Bootcamp", "body": "Actividad inmersiva con metodología propia que termina con acciones claras para ejecutar." }
+      }
+    }
+  },
+  "audience": {
+    "kicker": "05 · Público objetivo",
+    "title": "Para quién trabajamos",
+    "lead": "Lo que espera cada público cuando llega a Operanta.",
+    "segments": {
+      "companies": {
+        "title": "Empresas",
+        "subtitle": "Pymes con operación física",
+        "expects": ["Resultados medibles en productividad y margen", "Procesos que funcionan sin depender del dueño", "Equipos con roles claros y menos rotación", "Un piloto de bajo riesgo antes de comprometerse"]
+      },
+      "people": {
+        "title": "Personas",
+        "subtitle": "Profesionales en transición",
+        "expects": ["Claridad sobre su siguiente paso profesional", "Un perfil laboral fortalecido y visible", "Formación práctica para cerrar brechas", "Acompañamiento cercano en la transición laboral"]
+      },
+      "influencers": {
+        "title": "Influencers y aliados",
+        "subtitle": "Gremios, comunidades y líderes de opinión",
+        "expects": ["Contenido útil y con datos sobre gestión y empleabilidad", "Aliados con experiencia comprobable", "Proyectos con impacto social y territorial", "Espacios de formación para sus comunidades"]
+      }
+    }
+  },
+  "value": {
+    "kicker": "06 · Propuesta de valor",
+    "statement": "Su operación deja de depender de usted. Ordenamos los procesos, formamos a quien los sostiene y lo medimos en pesos",
+    "audience": "Para gerentes de pymes del Valle de Aburrá con operación física.",
+    "pillars": {
+      "process": { "title": "Procesos ordenados", "body": "La operación funciona con flujo, indicadores y responsables claros." },
+      "people": { "title": "Personas formadas", "body": "Quien sostiene el proceso tiene el rol, la ruta y las herramientas." },
+      "measure": { "title": "Resultados medidos", "body": "La autonomía se demuestra con un indicador, no con una sensación." }
+    }
+  },
+  "plans": {
+    "kicker": "07 · Cómo contratarnos",
+    "title": "Modelo modular: piloto primero, escalar después",
+    "lead": "La relación crece con la confianza y los resultados. Se empieza con un compromiso pequeño y de alto valor, y se amplía cuando la mejora ya se ve.",
+    "featured": "Más solicitado",
+    "items": {
+      "diagnosis": {
+        "eyebrow": "Puerta de entrada",
+        "title": "Diagnóstico",
+        "model": "Tarifa fija",
+        "body": "Línea base con indicadores reales de operación. Bajo compromiso, alto valor de arranque. El primer paso recomendado.",
+        "cta": "Empezar por aquí"
+      },
+      "sprint": {
+        "eyebrow": "Más solicitado",
+        "title": "Sprint de mejora",
+        "model": "Por alcance",
+        "body": "Intervención definida sobre un caso concreto, con entregables y metas medibles. Equipo capacitado y tablero de indicadores.",
+        "cta": "Cotizar un sprint"
+      },
+      "retainer": {
+        "eyebrow": "Para escalar",
+        "title": "Acompañamiento",
+        "model": "Mensualidad",
+        "body": "Presencia continua para sostener la mejora, gobernar la operación y escalar a más frentes con personas y procesos.",
+        "cta": "Hablar del alcance"
+      }
+    }
+  },
+  "team": {
+    "kicker": "08 · Quiénes lo hacen",
+    "title": "El equipo detrás de Operanta",
+    "role": "Socia fundadora",
+    "footnote": "Contamos con un equipo multidisciplinario que se suma a cada proyecto según la necesidad.",
+    "members": {
+      "clara": {
+        "name": "Clara Arbeláez",
+        "bio": "Ingeniera industrial, Lean Six Sigma. Más de 15 años liderando operaciones y logística en consumo masivo y alimentos. Redes de distribución nacionales y transformación de procesos."
+      },
+      "monica": {
+        "name": "Mónica Sanín",
+        "bio": "Directora de innovación social y desarrollo de comunidades. Más de 10 años en proyectos de innovación, estrategias de impacto territorial, cultura, empleabilidad y sostenibilidad en empresas y fundaciones sociales."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "09 · Contáctenos",
+    "title": "Cuéntenos qué quiere mover",
+    "lead": "Déjenos sus datos y le respondemos en menos de un día hábil. Si prefiere, escríbanos por WhatsApp.",
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "role": "Cargo",
+      "need": "Necesidad"
+    },
+    "placeholders": {
+      "name": "Su nombre completo",
+      "email": "nombre{'@'}empresa.com",
+      "phone": "+57 300 000 0000",
+      "company": "Nombre de la empresa",
+      "role": "Su cargo",
+      "need": "¿Qué le gustaría mejorar en su operación, su equipo o su carrera?"
+    },
+    "requiredNote": "Los campos con * son obligatorios.",
+    "privacy": "Usamos estos datos solo para responder su solicitud.",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "sent": "Mensaje enviado. Le escribiremos pronto.",
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "invalidEmail": "Escriba un correo válido.",
+      "invalidPhone": "Escriba un teléfono válido (7 a 15 dígitos).",
+      "tooLong": "El texto es demasiado largo."
+    },
+    "toast": {
+      "successTitle": "¡Gracias!",
+      "successBody": "Recibimos su mensaje y le responderemos pronto.",
+      "errorTitle": "No pudimos enviar su mensaje",
+      "errorBody": "Inténtelo de nuevo o escríbanos por WhatsApp."
+    },
+    "alt": {
+      "title": "Otras formas de contacto",
+      "whatsapp": "WhatsApp",
+      "email": "Correo",
+      "calendly": "Agendar un diagnóstico"
+    }
+  },
+  "footer": {
+    "tagline": "Gestión empresarial y perfil laboral. Procesos y personas, medidos.",
+    "location": "Medellín, Colombia",
+    "follow": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  },
+  "whatsapp": {
+    "message": "Estoy interesada en los servicios de Operanta.",
+    "tooltip": "¿Hablamos?"
+  }
+}
