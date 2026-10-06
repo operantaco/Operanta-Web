@@ -125,6 +125,11 @@ export default defineNuxtConfig({
   },
 
   supabase: {
-    redirect: false
+    redirect: false,
+    // The module throws on every request when URL/key are empty. Placeholders keep the site
+    // up before a Supabase project exists; real values come from NUXT_PUBLIC_SUPABASE_* at runtime.
+    // Nothing is stored until NUXT_SUPABASE_SECRET_KEY is also set (see server/api/contact.post.ts).
+    url: 'https://placeholder.supabase.co',
+    key: 'placeholder-publishable-key'
   }
 })
