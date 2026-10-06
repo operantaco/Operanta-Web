@@ -44,7 +44,7 @@ npm run lint && npm run typecheck && npm run test
    | `NUXT_CONTACT_TO_EMAIL` | `contacto@operanta.com.co` |
    | `NUXT_PUBLIC_GTAG_ID` | ID de Google Analytics 4 (opcional) |
 
-   Sin la URL y la clave de Supabase el sitio no carga (el módulo exige ambas).
+   Todas son opcionales para publicar: sin Supabase el sitio carga igual y solo se omite el guardado en base de datos. Para que el formulario funcione hace falta al menos Supabase (los tres valores) o Resend.
 
 4. Apuntar el dominio al nuevo sitio de Netlify (hoy apunta al `index.html` subido con Netlify Drop).
 

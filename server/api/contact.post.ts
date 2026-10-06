@@ -8,7 +8,10 @@ export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig(event)
   const body = await readBody(event)
 
-  const hasSupabase = Boolean(config.public.supabase?.url && (config.supabase?.secretKey || config.supabase?.serviceKey))
+  const supabaseUrl = config.public.supabase?.url
+  const hasSupabase = Boolean(
+    supabaseUrl && !supabaseUrl.includes('placeholder') && (config.supabase?.secretKey || config.supabase?.serviceKey)
+  )
 
   const deps: ContactDeps = {
     logger: console,
