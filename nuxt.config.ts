@@ -84,9 +84,9 @@ export default defineNuxtConfig({
     ]
   },
 
+  // The GA4 measurement ID is public (it ships in the page). NUXT_PUBLIC_GTAG_ID overrides it.
   gtag: {
-    enabled: Boolean(process.env.NUXT_PUBLIC_GTAG_ID),
-    id: process.env.NUXT_PUBLIC_GTAG_ID
+    id: process.env.NUXT_PUBLIC_GTAG_ID || 'G-9WJXLP2H23'
   },
 
   i18n: {
