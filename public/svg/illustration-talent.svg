@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <title>Talento: personas y ruta de desarrollo</title>
+  <g stroke="#13233F" stroke-width="2">
+    <circle cx="70" cy="96" r="18"/>
+    <path d="M38 164c0-18 14-32 32-32s32 14 32 32"/>
+    <circle cx="132" cy="110" r="14"/>
+    <path d="M108 164c0-14 10-24 24-24 9 0 16 4 20 10"/>
+  </g>
+  <path d="M170 196c20-4 30-30 50-40s38-6 52-40" stroke="#F4A340" stroke-width="3"/>
+  <g stroke="#F4A340" stroke-width="2" fill="#FFFFFF">
+    <circle cx="170" cy="196" r="7"/>
+    <circle cx="222" cy="154" r="7"/>
+  </g>
+  <path d="M272 116l-2-24-20 10" stroke="#F4A340" stroke-width="3"/>
+  <circle cx="272" cy="96" r="22" stroke="#12B0A8" stroke-width="2" stroke-dasharray="3 6"/>
+  <path d="M28 214h264" stroke="#13233F" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="2 8"/>
+  <path d="M60 50h40M80 30v40" stroke="#12B0A8" stroke-width="2"/>
+</svg>

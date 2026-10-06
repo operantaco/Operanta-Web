@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Brand tokens (Operanta · Manual de línea gráfica v1.0) */
+@theme static {
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-marea-50: #e8f8f7;
+  --color-marea-100: #c6eeec;
+  --color-marea-200: #92deda;
+  --color-marea-300: #5ecdc7;
+  --color-marea-400: #34bfb8;
+  --color-marea-500: #12b0a8;
+  --color-marea-600: #0e938c;
+  --color-marea-700: #0b7a74;
+  --color-marea-800: #0a605c;
+  --color-marea-900: #084e4b;
+  --color-marea-950: #042e2c;
+
+  --color-ambar-50: #fef6ec;
+  --color-ambar-100: #fde9cf;
+  --color-ambar-200: #fbd39f;
+  --color-ambar-300: #f8bd6e;
+  --color-ambar-400: #f6ae55;
+  --color-ambar-500: #f4a340;
+  --color-ambar-600: #dd8622;
+  --color-ambar-700: #b4681a;
+  --color-ambar-800: #8f5118;
+  --color-ambar-900: #744316;
+  --color-ambar-950: #42230a;
+
+  /* Tinta scale: 100 = Niebla, 500 = Pizarra, 900 = Tinta */
+  --color-tinta-50: #f6f7f8;
+  --color-tinta-100: #eef0f1;
+  --color-tinta-200: #dce0e4;
+  --color-tinta-300: #c2c8cf;
+  --color-tinta-400: #8f98a3;
+  --color-tinta-500: #68727e;
+  --color-tinta-600: #4e5a69;
+  --color-tinta-700: #36445a;
+  --color-tinta-800: #1e2f4b;
+  --color-tinta-900: #13233f;
+  --color-tinta-950: #0a1529;
+
+  --ease-brand: cubic-bezier(0.2, 0.7, 0.1, 1);
+}
+
+:root {
+  --ui-radius: 0.25rem;
+  /* AA contrast for text and solid buttons on light backgrounds */
+  --ui-primary: var(--ui-color-primary-700);
+  --ui-secondary: var(--ui-color-secondary-700);
+  --ui-bg: #ffffff;
+  --ui-bg-muted: var(--ui-color-neutral-100);
+}
+
+.dark {
+  --ui-primary: var(--ui-color-primary-400);
+  --ui-secondary: var(--ui-color-secondary-400);
+  --ui-bg: var(--ui-color-neutral-950);
+  --ui-bg-muted: var(--ui-color-neutral-900);
+  --ui-bg-elevated: var(--ui-color-neutral-900);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--color-marea-500);
+  color: #fff;
+}
+
+@utility dot-grid {
+  background-image: radial-gradient(color-mix(in oklab, currentColor 22%, transparent) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+@utility kicker {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+@utility ghost-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 0.8;
+  letter-spacing: -0.06em;
+  color: transparent;
+  -webkit-text-stroke: 1px color-mix(in oklab, currentColor 14%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+
+@utility glass {
+  background: color-mix(in oklab, var(--ui-bg) 72%, transparent);
+  backdrop-filter: blur(14px) saturate(1.2);
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(0, -18px, 0) rotate(8deg); }
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+.animate-drift { animation: drift 14s var(--ease-brand) infinite; }
+.animate-spin-slow { animation: spin-slow 60s linear infinite; }
+.animate-pulse-ring { animation: pulse-ring 2.6s ease-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

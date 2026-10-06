@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
+  <title>Operanta · flujo de diagnóstico a transferencia</title>
+  <g stroke="#FFFFFF" stroke-opacity="0.14">
+    <path d="M0 200h1200"/>
+    <path d="M0 120h1200M0 280h1200" stroke-dasharray="2 14"/>
+  </g>
+  <path d="M60 260C220 260 220 140 380 140S540 260 700 260 860 140 1020 140 1140 200 1180 200" stroke="#12B0A8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 260C220 260 220 140 380 140S540 260 700 260 860 140 1020 140" stroke="#F4A340" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 10"/>
+  <g stroke="#12B0A8" stroke-width="2" fill="#13233F">
+    <circle cx="140" cy="230" r="18"/>
+    <circle cx="460" cy="170" r="18"/>
+    <circle cx="780" cy="230" r="18"/>
+  </g>
+  <circle cx="1100" cy="170" r="18" stroke="#F4A340" stroke-width="2" fill="#13233F"/>
+  <g fill="#12B0A8">
+    <circle cx="140" cy="230" r="5"/>
+    <circle cx="460" cy="170" r="5"/>
+    <circle cx="780" cy="230" r="5"/>
+  </g>
+  <circle cx="1100" cy="170" r="5" fill="#F4A340"/>
+</svg>
