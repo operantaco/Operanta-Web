@@ -42,7 +42,7 @@ npm run lint && npm run typecheck && npm run test
    | `NUXT_RESEND_API_KEY` | API key de Resend |
    | `NUXT_CONTACT_FROM_EMAIL` | `Operanta Web <web@operanta.com.co>` |
    | `NUXT_CONTACT_TO_EMAIL` | `contacto@operanta.com.co` |
-   | `NUXT_PUBLIC_GTAG_ID` | ID de Google Analytics 4 (opcional) |
+   | `NUXT_PUBLIC_GTAG_ID` | ID de Google Analytics 4 (opcional; por defecto `G-9WJXLP2H23`) |
 
    Todas son opcionales para publicar: sin Supabase el sitio carga igual y solo se omite el guardado en base de datos. Para que el formulario funcione hace falta al menos Supabase (los tres valores) o Resend.
 
