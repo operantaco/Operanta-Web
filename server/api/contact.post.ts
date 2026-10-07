@@ -26,9 +26,10 @@ export default defineEventHandler(async (event) => {
       : undefined,
     notify: config.resendApiKey
       ? record => sendWithResend(config.resendApiKey, buildContactEmail({ ...record, website: '' }, config.contactFromEmail, config.contactToEmail))
-      : process.env.NETLIFY
-        ? record => sendToNetlifyForms(process.env.URL || getRequestURL(event, { xForwardedHost: true }).origin, record)
-        : undefined
+      // Netlify does not expose NETLIFY at runtime, so any non-dev server uses Netlify Forms as the default inbox.
+      : import.meta.dev
+        ? undefined
+        : record => sendToNetlifyForms(getRequestURL(event, { xForwardedHost: true }).origin, record)
   }
 
   const result = await submitContact(body, deps)
