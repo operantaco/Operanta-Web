@@ -27,12 +27,12 @@ const tabs = computed<TabsItem[]>(() => [
           data-aos-delay="200"
         >
           <img
-            src="/svg/illustration-operations.svg"
+            src="/svg/service-operations.svg"
             alt=""
             class="rounded-2xl ring-1 ring-tinta-200/60"
           >
           <img
-            src="/svg/illustration-talent.svg"
+            src="/svg/service-talent.svg"
             alt=""
             class="rounded-2xl ring-1 ring-tinta-200/60"
           >
