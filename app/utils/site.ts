@@ -14,7 +14,7 @@ export const SECTION_IDS = {
 
 export type SectionKey = keyof typeof SECTION_IDS
 
-export const NAV_SECTIONS: SectionKey[] = ['problem', 'services', 'method', 'plans', 'team', 'contact']
+export const NAV_SECTIONS: SectionKey[] = ['hero', 'services', 'method', 'plans', 'team', 'contact']
 
 export const CONTACT_EMAIL = 'contacto@operanta.com.co'
 
@@ -48,12 +48,12 @@ export const AUDIENCE_SEGMENTS = [
 ] as const
 
 export const PLANS = [
-  { id: 'diagnosis', featured: false },
-  { id: 'sprint', featured: true },
-  { id: 'retainer', featured: false }
+  { id: 'diagnosis' },
+  { id: 'sprint' },
+  { id: 'retainer' }
 ] as const
 
 export const TEAM = [
-  { id: 'clara', photo: '/img/team/clara-arbelaez.jpg' },
+  { id: 'clara', photo: '/img/team/clara-arbelaez.webp' },
   { id: 'monica', photo: '/img/team/monica-sanin.jpg' }
 ] as const

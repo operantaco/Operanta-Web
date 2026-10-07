@@ -3,6 +3,7 @@ import type { ContactDeps } from '../utils/contact-service'
 import { submitContact } from '../utils/contact-service'
 import { buildContactEmail } from '../utils/contact-email'
 import { sendWithResend } from '../utils/resend'
+import { sendToNetlifyForms } from '../utils/netlify-forms'
 
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig(event)
@@ -25,7 +26,9 @@ export default defineEventHandler(async (event) => {
       : undefined,
     notify: config.resendApiKey
       ? record => sendWithResend(config.resendApiKey, buildContactEmail({ ...record, website: '' }, config.contactFromEmail, config.contactToEmail))
-      : undefined
+      : process.env.NETLIFY
+        ? record => sendToNetlifyForms(process.env.URL || getRequestURL(event, { xForwardedHost: true }).origin, record)
+        : undefined
   }
 
   const result = await submitContact(body, deps)

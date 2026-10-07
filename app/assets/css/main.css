@@ -97,17 +97,6 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
-@utility ghost-number {
-  font-family: var(--font-display);
-  font-weight: 700;
-  line-height: 0.8;
-  letter-spacing: -0.06em;
-  color: transparent;
-  -webkit-text-stroke: 1px color-mix(in oklab, currentColor 14%, transparent);
-  pointer-events: none;
-  user-select: none;
-}
-
 @utility glass {
   background: color-mix(in oklab, var(--ui-bg) 72%, transparent);
   backdrop-filter: blur(14px) saturate(1.2);

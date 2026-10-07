@@ -4,7 +4,7 @@
     "description": "Operanta supports SMEs and professionals through change: processes, innovation and talent with measurable results. Medellín, Colombia."
   },
   "nav": {
-    "problem": "Starting point",
+    "hero": "Home",
     "services": "Services",
     "method": "How we work",
     "plans": "Engagement",
@@ -25,7 +25,7 @@
     }
   },
   "hero": {
-    "kicker": "01 · Business management / Career profile",
+    "kicker": "Business management / Career profile",
     "title": "Business management and career profiles in Medellín",
     "lead": "Operanta supports SMEs and professionals through moments of change: SMEs, to improve their processes and innovate in their business; professionals, to take the next step in their careers.",
     "ctaWhatsapp": "Message us on WhatsApp",
@@ -38,7 +38,7 @@
     }
   },
   "problem": {
-    "kicker": "02 · The starting point",
+    "kicker": "The starting point",
     "title": "An SME grows through two things at once",
     "items": {
       "people": {
@@ -56,7 +56,7 @@
     }
   },
   "services": {
-    "kicker": "03 · What we do",
+    "kicker": "What we do",
     "title": "Service lines",
     "lead": "Two fronts that reinforce each other: the operation that produces and the talent that sustains it.",
     "tabs": {
@@ -100,7 +100,7 @@
     }
   },
   "method": {
-    "kicker": "04 · How we work",
+    "kicker": "How we work",
     "consulting": {
       "title": "From diagnosis to built-in capability",
       "note": "We start with a pilot: low risk, proof of value, then we scale.",
@@ -122,7 +122,7 @@
     }
   },
   "audience": {
-    "kicker": "05 · Who we serve",
+    "kicker": "Who we serve",
     "title": "Who we work for",
     "lead": "What each audience expects when it comes to Operanta.",
     "segments": {
@@ -137,14 +137,14 @@
         "expects": ["Clarity on their next career step", "A stronger, more visible professional profile", "Practical training to close gaps", "Close support through the career transition"]
       },
       "influencers": {
-        "title": "Influencers and partners",
-        "subtitle": "Associations, communities and opinion leaders",
-        "expects": ["Useful, data-backed content on management and employability", "Partners with proven experience", "Projects with social and territorial impact", "Training spaces for their communities"]
+        "title": "Influencers",
+        "subtitle": "Content creators with an established community, and their managers",
+        "expects": ["Useful insight to turn content into a business","Practical training suited to the target audience","A business with its own model, finances and operations","A 90-day roadmap"]
       }
     }
   },
   "value": {
-    "kicker": "06 · Value proposition",
+    "kicker": "Value proposition",
     "statement": "Your operation stops depending on you. We organize the processes, train the people who sustain them and measure it in pesos",
     "audience": "For managers of SMEs in the Aburrá Valley with physical operations.",
     "pillars": {
@@ -154,36 +154,30 @@
     }
   },
   "plans": {
-    "kicker": "07 · How to hire us",
+    "kicker": "How to hire us",
     "title": "Modular model: pilot first, scale later",
     "lead": "The relationship grows with trust and results. It starts with a small, high-value commitment and expands once the improvement is visible.",
-    "featured": "Most requested",
+    "cta": "Contact us",
     "items": {
       "diagnosis": {
-        "eyebrow": "Entry point",
         "title": "Diagnosis",
         "model": "Fixed fee",
-        "body": "A baseline with real operational indicators. Low commitment, high starting value. The recommended first step.",
-        "cta": "Start here"
+        "body": "A baseline with real operational indicators. Low commitment, high starting value. The recommended first step."
       },
       "sprint": {
-        "eyebrow": "Most requested",
         "title": "Improvement sprint",
         "model": "By scope",
-        "body": "A defined intervention on a concrete case, with measurable deliverables and goals. A trained team and an indicator dashboard.",
-        "cta": "Quote a sprint"
+        "body": "A defined intervention on a concrete case, with measurable deliverables and goals. A trained team and an indicator dashboard."
       },
       "retainer": {
-        "eyebrow": "To scale",
         "title": "Ongoing support",
         "model": "Monthly retainer",
-        "body": "A continuous presence to sustain the improvement, govern the operation and scale to more fronts with people and processes.",
-        "cta": "Discuss the scope"
+        "body": "A continuous presence to sustain the improvement, govern the operation and scale to more fronts with people and processes."
       }
     }
   },
   "team": {
-    "kicker": "08 · Who does it",
+    "kicker": "Who does it",
     "title": "The team behind Operanta",
     "role": "Founding partner",
     "footnote": "We work with a multidisciplinary team that joins each project as needed.",
@@ -199,7 +193,7 @@
     }
   },
   "contact": {
-    "kicker": "09 · Contact us",
+    "kicker": "Contact us",
     "title": "Tell us what you want to move",
     "lead": "Leave your details and we will reply within one business day. If you prefer, message us on WhatsApp.",
     "fields": {

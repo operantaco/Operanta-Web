@@ -8,12 +8,6 @@ const list = useI18nList()
     class="relative overflow-hidden py-24 sm:py-32"
   >
     <div class="dot-grid absolute inset-0 text-highlighted opacity-60 [mask-image:radial-gradient(70%_60%_at_50%_40%,#000,transparent)]" />
-    <ParallaxLayer
-      :speed="-0.2"
-      class="ghost-number absolute right-4 top-10 text-[9rem] text-highlighted sm:right-10 sm:text-[16rem]"
-    >
-      05
-    </ParallaxLayer>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <SectionHeader
         :kicker="$t('audience.kicker')"

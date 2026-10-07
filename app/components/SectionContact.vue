@@ -23,12 +23,6 @@ const alternatives = computed(() => [
     :id="SECTION_IDS.contact"
     class="relative overflow-hidden bg-muted py-24 sm:py-32"
   >
-    <ParallaxLayer
-      :speed="-0.2"
-      class="ghost-number absolute right-4 top-10 text-[9rem] text-highlighted sm:right-10 sm:text-[16rem]"
-    >
-      09
-    </ParallaxLayer>
     <div class="relative mx-auto grid max-w-7xl grid-cols-1 gap-14 [&>*]:min-w-0 px-4 sm:px-6 lg:grid-cols-[1fr_1.25fr] lg:px-8">
       <div>
         <SectionHeader

@@ -48,6 +48,15 @@ npm run lint && npm run typecheck && npm run test
 
 4. Apuntar el dominio al nuevo sitio de Netlify (hoy apunta al `index.html` subido con Netlify Drop).
 
+### Formulario sin Resend (Netlify Forms)
+
+En Netlify, si no hay `NUXT_RESEND_API_KEY`, el formulario envía cada mensaje a **Netlify Forms** (gratis hasta 100 al mes; ver `public/__forms.html`). Para recibirlos en el correo:
+
+1. Netlify → Forms → *Enable form detection* (si aún no está activo) y volver a desplegar.
+2. Forms → *Form notifications* → *Add notification* → *Email notification* → `contacto@operanta.com.co`, formulario `contacto`.
+
+Los mensajes también quedan guardados en Netlify → Forms → `contacto`.
+
 El formulario responde bien si al menos uno de los dos destinos funciona (base de datos o correo); si fallan ambos, el usuario ve un error y la sugerencia de escribir por WhatsApp.
 
 ## Recursos generados
