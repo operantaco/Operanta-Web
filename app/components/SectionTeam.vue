@@ -38,7 +38,7 @@
                 height="256"
                 fit="cover"
                 loading="lazy"
-                class="size-32 rounded-full bg-muted object-cover object-top"
+                class="size-32 rounded-full bg-gradient-to-b from-marea-100 to-marea-200 object-cover object-top dark:from-tinta-700 dark:to-tinta-800"
               />
             </div>
             <div>

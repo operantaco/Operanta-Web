@@ -4,7 +4,7 @@
     "description": "Operanta acompaña a pymes y personas en sus momentos de cambio: procesos, innovación y talento con resultados medibles. Medellín y Valle de Aburrá."
   },
   "nav": {
-    "problem": "Punto de partida",
+    "hero": "Inicio",
     "services": "Servicios",
     "method": "Cómo trabajamos",
     "plans": "Contratarnos",
@@ -25,7 +25,7 @@
     }
   },
   "hero": {
-    "kicker": "01 · Gestión empresarial / Perfil laboral",
+    "kicker": "Gestión empresarial / Perfil laboral",
     "title": "Gestión empresarial y perfil laboral en Medellín",
     "lead": "Operanta acompaña a pymes y personas en sus momentos de cambio: a las pymes, a mejorar sus procesos e innovar en su negocio; a las personas, a dar el siguiente paso en su carrera profesional.",
     "ctaWhatsapp": "Escríbenos por WhatsApp",
@@ -38,7 +38,7 @@
     }
   },
   "problem": {
-    "kicker": "02 · El punto de partida",
+    "kicker": "El punto de partida",
     "title": "Una pyme crece por dos cosas a la vez",
     "items": {
       "people": {
@@ -56,7 +56,7 @@
     }
   },
   "services": {
-    "kicker": "03 · Qué hacemos",
+    "kicker": "Qué hacemos",
     "title": "Líneas de servicio",
     "lead": "Dos frentes que se refuerzan: la operación que produce y el talento que la sostiene.",
     "tabs": {
@@ -100,7 +100,7 @@
     }
   },
   "method": {
-    "kicker": "04 · Cómo trabajamos",
+    "kicker": "Cómo trabajamos",
     "consulting": {
       "title": "De diagnóstico a capacidad instalada",
       "note": "Empezamos por un piloto: bajo riesgo, prueba de valor y luego escalamos.",
@@ -122,7 +122,7 @@
     }
   },
   "audience": {
-    "kicker": "05 · Público objetivo",
+    "kicker": "Público objetivo",
     "title": "Para quién trabajamos",
     "lead": "Lo que espera cada público cuando llega a Operanta.",
     "segments": {
@@ -137,14 +137,14 @@
         "expects": ["Claridad sobre su siguiente paso profesional", "Un perfil laboral fortalecido y visible", "Formación práctica para cerrar brechas", "Acompañamiento cercano en la transición laboral"]
       },
       "influencers": {
-        "title": "Influencers y aliados",
-        "subtitle": "Gremios, comunidades y líderes de opinión",
-        "expects": ["Contenido útil y con datos sobre gestión y empleabilidad", "Aliados con experiencia comprobable", "Proyectos con impacto social y territorial", "Espacios de formación para sus comunidades"]
+        "title": "Influencers",
+        "subtitle": "Creadores de contenido con comunidad ya constituida y managers",
+        "expects": ["Información útil para pasar del contenido al negocio","Formación práctica acorde al público objetivo","Negocio con modelo, finanzas y operación propios","Hoja de ruta a 90 días"]
       }
     }
   },
   "value": {
-    "kicker": "06 · Propuesta de valor",
+    "kicker": "Propuesta de valor",
     "statement": "Su operación deja de depender de usted. Ordenamos los procesos, formamos a quien los sostiene y lo medimos en pesos",
     "audience": "Para gerentes de pymes del Valle de Aburrá con operación física.",
     "pillars": {
@@ -154,36 +154,30 @@
     }
   },
   "plans": {
-    "kicker": "07 · Cómo contratarnos",
+    "kicker": "Cómo contratarnos",
     "title": "Modelo modular: piloto primero, escalar después",
     "lead": "La relación crece con la confianza y los resultados. Se empieza con un compromiso pequeño y de alto valor, y se amplía cuando la mejora ya se ve.",
-    "featured": "Más solicitado",
+    "cta": "Contáctanos",
     "items": {
       "diagnosis": {
-        "eyebrow": "Puerta de entrada",
         "title": "Diagnóstico",
         "model": "Tarifa fija",
-        "body": "Línea base con indicadores reales de operación. Bajo compromiso, alto valor de arranque. El primer paso recomendado.",
-        "cta": "Empezar por aquí"
+        "body": "Línea base con indicadores reales de operación. Bajo compromiso, alto valor de arranque. El primer paso recomendado."
       },
       "sprint": {
-        "eyebrow": "Más solicitado",
         "title": "Sprint de mejora",
         "model": "Por alcance",
-        "body": "Intervención definida sobre un caso concreto, con entregables y metas medibles. Equipo capacitado y tablero de indicadores.",
-        "cta": "Cotizar un sprint"
+        "body": "Intervención definida sobre un caso concreto, con entregables y metas medibles. Equipo capacitado y tablero de indicadores."
       },
       "retainer": {
-        "eyebrow": "Para escalar",
         "title": "Acompañamiento",
         "model": "Mensualidad",
-        "body": "Presencia continua para sostener la mejora, gobernar la operación y escalar a más frentes con personas y procesos.",
-        "cta": "Hablar del alcance"
+        "body": "Presencia continua para sostener la mejora, gobernar la operación y escalar a más frentes con personas y procesos."
       }
     }
   },
   "team": {
-    "kicker": "08 · Quiénes lo hacen",
+    "kicker": "Quiénes lo hacen",
     "title": "El equipo detrás de Operanta",
     "role": "Socia fundadora",
     "footnote": "Contamos con un equipo multidisciplinario que se suma a cada proyecto según la necesidad.",
@@ -199,7 +193,7 @@
     }
   },
   "contact": {
-    "kicker": "09 · Contáctenos",
+    "kicker": "Contáctenos",
     "title": "Cuéntenos qué quiere mover",
     "lead": "Déjenos sus datos y le respondemos en menos de un día hábil. Si prefiere, escríbanos por WhatsApp.",
     "fields": {

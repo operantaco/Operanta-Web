@@ -37,7 +37,7 @@ const year = new Date().getFullYear()
       <div class="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <img
-            src="/brand/logo-horizontal-white.svg"
+            src="/brand/logo-horizontal-on-dark.svg"
             alt="Operanta"
             width="240"
             height="75"

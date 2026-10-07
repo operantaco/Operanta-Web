@@ -11,12 +11,6 @@ const items = [
     :id="SECTION_IDS.problem"
     class="relative overflow-hidden bg-muted py-24 sm:py-32"
   >
-    <ParallaxLayer
-      :speed="-0.2"
-      class="ghost-number absolute right-4 top-10 text-[9rem] text-highlighted sm:right-10 sm:text-[16rem]"
-    >
-      02
-    </ParallaxLayer>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <SectionHeader
         :kicker="$t('problem.kicker')"

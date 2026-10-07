@@ -14,12 +14,6 @@ const tabs = computed<TabsItem[]>(() => [
     :id="SECTION_IDS.services"
     class="relative overflow-hidden py-24 sm:py-32"
   >
-    <ParallaxLayer
-      :speed="-0.2"
-      class="ghost-number absolute right-4 top-10 text-[9rem] text-highlighted sm:right-10 sm:text-[16rem]"
-    >
-      03
-    </ParallaxLayer>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid items-end gap-10 lg:grid-cols-[1.4fr_1fr]">
         <SectionHeader
@@ -35,12 +29,12 @@ const tabs = computed<TabsItem[]>(() => [
           <img
             src="/svg/illustration-operations.svg"
             alt=""
-            class="rounded-md bg-tinta-50 p-4 ring-1 ring-tinta-200/60"
+            class="rounded-2xl ring-1 ring-tinta-200/60"
           >
           <img
             src="/svg/illustration-talent.svg"
             alt=""
-            class="rounded-md bg-tinta-50 p-4 ring-1 ring-tinta-200/60"
+            class="rounded-2xl ring-1 ring-tinta-200/60"
           >
         </div>
       </div>

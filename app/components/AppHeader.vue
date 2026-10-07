@@ -9,7 +9,7 @@ const navItems = computed(() => NAV_SECTIONS.map(key => ({ key, label: t(`nav.${
 
 /** Over the dark hero the header is always light-on-dark. */
 const onDark = computed(() => !solid.value || colorMode.value === 'dark')
-const logo = computed(() => (onDark.value ? '/brand/logo-horizontal-white.svg' : '/brand/logo-horizontal-color.svg'))
+const logo = computed(() => (onDark.value ? '/brand/logo-horizontal-on-dark.svg' : '/brand/logo-horizontal-color.svg'))
 </script>
 
 <template>
